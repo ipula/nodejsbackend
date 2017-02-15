@@ -19,5 +19,5 @@ app.use(function(req,res,next){
 app.use('/api', require('./routes/api'));
 
 
-app.listen(4000);
+app.listen(40);
 console.log('API running on port 4000');
